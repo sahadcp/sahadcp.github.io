@@ -972,7 +972,7 @@ header
 }
 
 .header-area .main-nav .nav li {
-  margin-left: 35px;
+  margin-left: 22px;
 }
 
 .header-area .main-nav .nav li a {
@@ -1343,7 +1343,7 @@ header
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .header-area {
     background: #fff;
     height: 80px;
@@ -1413,7 +1413,7 @@ header
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
