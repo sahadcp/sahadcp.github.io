@@ -109,7 +109,7 @@
 							<li><a href="#team">TEAM</a></li>
 							<li><a href="whitepaper.pdf">WHITEPAPER</a></li>
 							<li><a href="#contact">CONTACT</a></li>
-							<li><a href="#" class="btn-nav-box">GET UPDATES</a></li>
+							<li><a href="#" class="btn-nav-box" data-toggle="modal" data-target="#popUpWindow">GET UPDATES</a></li>
 						</ul>
 						<a class='menu-trigger'>
 							<span>Menu</span>
@@ -121,6 +121,36 @@
 		</div>
 	</header>
 	<!-- ***** Header Area End ***** -->
+
+		<!-- ***** modal Area start ***** -->
+		<div class="modal fade" id="popUpWindow">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<!-- header -->
+				<div class="modal-header">
+						<h3 class="modal-title">Get Update</h3>
+
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<!-- body -->
+				<div class="modal-header">
+				  <form role="form" style="
+				  width: 460px;">
+					<div class="form-group">
+					  <input type="email" class="form-control" placeholder="Email"/>
+					</div>
+				  </form>
+				</div>
+				<!-- footer -->
+				<div class="modal-footer">
+				  <button class="btn btn-primary btn-block">Submit</button>
+				</div>
+				
+			  </div>
+			</div>
+		  </div>
+	<!-- ***** modal Area End ***** -->
+
 
 	<!-- ***** Wellcome Area Start ***** -->
 	<section class="welcome-area bg-top-right" id="welcome-1">
@@ -702,7 +732,7 @@
 	<!-- ***** Telegram Parallax End ***** -->
 
 	<!-- ***** FAQ Start ***** -->
-	<!-- <section class="section bg-top" id="faq">
+	 <section class="section bg-top" id="faq">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -723,14 +753,16 @@
 							<div class="card-header" id="faqHeading-1">
 								<div class="mb-0">
 									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-										<span class="badge">1</span> What are the benefits of digital currency?
+										<span class="badge">1</span> What is ROSCA (MoneyCircles) and how does AZ Fundchain helps using blockchain technology for ROSCA?
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<p>ROSCA funding (money circles) is an extremely popular way of private funding. Although they are becoming more popular every single day, the traditional way of organizing the circle which is mostly done through private networks set a barrier for honest people looking for funding without interest to access them. Money circle organizers, at the same time, are not always entirely transparent and in some cases, if the organizer is an institution the fees may go up to 5% from all the money being transferred within the circle. Crowdfunding, mostly because of legal barriers are not easily accessible by small business owners which are looking for funding. At the same time, the household economy doesn’t have access nor desire to fund these businesses mainly because of accessibility and trust issues. AZ FundChain is an accessible, transparent and reliable money circle and crowdfunding application running on completely on blockchain. AZ FundChain aims to become the trusted application for the money circles that are popular but done in traditional ways with being accessible to anyone that uses a mobile application. Although ROSCA funding (money circles) are mostly done through private circles,
+											AZ FundChain will also provide a social aspect which would allow participants to have reputation, background, and feedback that would allow the organizer of the circle to evaluate and accept regardless of that person being previously unknown to the organizer.
+									</p>
 								</div>
 							</div>
 						</div>
@@ -738,14 +770,21 @@
 							<div class="card-header" id="faqHeading-2">
 								<div class="mb-0">
 									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-										<span class="badge">2</span> How long has digital currency existed?
+										<span class="badge">2</span> What are benefits/uses of ROSCA/Money circles?
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<p>Benefits are: <br>
+										<ul>
+											<li>-No access to banking systems needed.</li>
+											<li>-Interest free borrowing and saving need depending on personal beliefs.</li> 
+											<li> -Low credibility.</li> 
+											<li>-In need of a quicker, bureaucracy-free loan.</li>
+											 <li>-Saving money periodically.</li> </ul>
+											Each month or period decided by the organizer every member contributes the same amount to the circle. One member takes the whole sum, only once. This allows each member to have an access to a large sum of money. The participant can use the money for whatever purpose they desire. One of the reasons people are choosing this method over saving money at home is because of the risks family members are asking for the money. There are also security reasons involved with carrying and hiding cash</p>
 								</div>
 							</div>
 						</div>
@@ -753,14 +792,16 @@
 							<div class="card-header" id="faqHeading-3">
 								<div class="mb-0">
 									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-										<span class="badge">3</span> How will digital currency affect daily life in the US and around the world?
+										<span class="badge">3</span> How does a ROSCA circles function?
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<!-- <p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p> -->
+									<p>For example 12 people form a bi-weekly money circle. Every two weeks, each person will contribute $20 USD to the circle. In every period, a member will be eligible to take the whole sum, which would be $220 USD every two weeks. In twelve weeks the circle is completed. Everyone received $220 USD at once while paying $20 to the circle for 11 different bi-weekly periods.
+										</p>
 								</div>
 							</div>
 						</div>
@@ -768,44 +809,56 @@
 							<div class="card-header" id="faqHeading-4">
 								<div class="mb-0">
 									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-										<span class="badge">4</span> Why should I use ARD currency and how is it different from other currencies?
+										<span class="badge">4</span> What are differences between traditional money circles and AZ Fundchain circles?
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<p>There are a number of problems that could arise in traditional money circles. Here are several common problems faced by ROSCA members:
+											<br> <strong>transparency:</strong> a blockchain application serves best for the transparency of AZ FundChain platform. Here to underline once again, from the reputation scores of each individual being displayed for others in ease to active money circles to be highly traceable each step focuses on the main objective of preventing financial exploitation of participants due to the lack of information. Smart contracts holding a manager role for the transactions, users are regulators for each other as well as their funds.
+											<br><strong>Security:</strong> Blockchain, providing a transparent and unalterable base for all the interactions within the community without serving for the interests of a particular group or individual, is the best technology for financial applications to build upon.
+											Poor leadership: Management of money circles consisting of large number of members is not easy. It is difficult to keep track of transactions. AZ Fundchain helps make this process easy on the blockchain.</p>
 								</div>
 							</div>
 						</div>
 						<div class="card">
-							<div class="card-header" id="faqHeading-5">
-								<div class="mb-0">
-									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-										<span class="badge">5</span> How is ARD and Arda helping entrepreneurs?
-									</h5>
+								<div class="card-header" id="faqHeading-5">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+											<span class="badge">5</span>What is Crowdfunding?
+
+	
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
+									<div class="card-body">
+										<!-- <p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p> -->
+										<p>Crowdfunding is the practice of funding a project or venture by raising small amounts of money from a large number of people, typically via the Internet. Crowdfunding is a form of crowdsourcing and alternative finance. 
+												Although similar concepts can also be executed through mail-order subscriptions, benefit events, and other methods, the term crowdfunding refers to Internet-mediated registries. This modern crowdfunding model is generally based on three types of actors: the project initiator who proposes the idea or project to be funded, individuals or groups who support the idea, and a moderating organization (the "platform") that brings the parties together to launch the idea.
+												
+											</p>
+									</div>
 								</div>
 							</div>
-							<div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
-								</div>
-							</div>
-						</div>
+
+
 						<div class="card">
 							<div class="card-header" id="faqHeading-6">
 								<div class="mb-0">
-									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-										<span class="badge">6</span> What benefits can I get from joining the ARD crowd funding platform?
+									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
+										<span class="badge">6</span> Why did we choose blockchain technology for ROSCA and Crowdfunding? 
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<p>With all obvious ground, money circle and crowdfunding are facing against the bad reputation of resulting in fraudulent actions. This rightful ascription is mostly caused by the asymmetric information leading investors to come across serious risks and eventually, loss of money. Blockchain, providing a transparent and unalterable base for all the interactions within the community without serving for the interests of a particular group or individual, is the best technology for financial applications to build upon.
+<br>
+											An urge to provide an alternative financial tool requires the abundance of any loss of money as well as the perfect cash management. Here, one can observe that both may only be achieved by the features of smart contracts which protects the rights of every individual and sustains a self-maintaining concept among all the transactions.</p>
 								</div>
 							</div>
 						</div>
@@ -813,25 +866,89 @@
 							<div class="card-header" id="faqHeading-7">
 								<div class="mb-0">
 									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-										<span class="badge">7</span> How do I convert my ARD currency into US dollars or other currencies?
+										<span class="badge">7</span> How secure are transactions through AZ Fundchain?
+
 									</h5>
 								</div>
 							</div>
 							<div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
 								<div class="card-body">
-									<p>Donec tempus sodales dolor, at efficitur enim posuere auctor. Nam et nisi eu purus tempor faucibus aliquet vitae orci. Curabitur sollicitudin leo et magna pharetra efficitur. Nullam et scelerisque lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque faucibus sit amet odio eget scelerisque. Mauris dictum cursus ornare.</p>
-									<p>Ut vehicula blandit tellus. Sed sit amet bibendum leo, non sagittis neque. Nam fringilla fermentum tortor, ac gravida velit facilisis id. Donec congue ullamcorper velit, at malesuada arcu faucibus pretium. Donec rhoncus magna sit amet massa venenatis, ut convallis justo ultricies.</p>
+									<p>The application requires an ID verification to minimize the fraudulent risk like the fake profiles for which FundChain will implement Know Your Customer (KYC) processes. Verified profiles will have platform ratings as for their reputations and social ID carts still to sustain a transparent environment. Users are allowed to send private messages to each other as well before they attend a money circle or organize one. Through the implementation of each of the above, reassuring once again that AZ FundChain application is mostly self-regulated and keeps the characteristic to stay peer-to-peer.
+<br><br>
+											Once being verified, participants have the option to contribute and make an investment to a pool or organize a money circle that is either public or private depending on the needs and preferences.
+											AZ FundChain application offers a secure way of depositing and withdrawal mainly in three payment methods being via Ethereum, AZ Token or the other ERC20 tokens added later on. Participants are free to keep their money in their account as to use it again and their balance can be easily displayed in their profile. Apart from their balance, profile reputations can also be observed which acts like credit scores and remarkably driven by two causes: users’ performance to fulfill their previous contracts and their KYC process being verified. High reputation scores allow users to organize lucrative money circles by constructing a rich background. </p>
 								</div>
 							</div>
 						</div>
+						<div class="card">
+							<div class="card-header" id="faqHeading-8">
+								<div class="mb-0">
+									<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8" data-aria-expanded="false" data-aria-controls="faqCollapse-8">
+										<span class="badge">8</span> How are the AZ Fundchain Crowdfunding milestone rules set?
+
+
+									</h5>
+								</div>
+							</div>
+							<div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion">
+								<div class="card-body">
+								<p>	Soft cap: Business owner will be able to set a soft cap. After reaching soft cap, the business owner will be able to withdraw the funds. If the investment won’t reach soft cap within the crowdfunding period, the funds will be returned to the investors.
+										Hard cap: Business owner will set a hard cap and no further investments will be accepted beyond reaching the hard cap.
+										Time and date: The crowdfunding period will have concrete beginning and ending date.</p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+								<div class="card-header" id="faqHeading-9">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-9" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+											<span class="badge">9</span> What are features of AZ Fundchain Money circles (ROSCA)?
+
+	
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-9" class="collapse" aria-labelledby="faqHeading-9" data-parent="#accordion">
+									<div class="card-body">
+									<p>Platform users are free to join any public money circle listed and gradually updated on their screens and organizing one, KYC/AML process verification being the only requirement. Money circle organization can either be publicly or privately due to the needs and preferences of the participants. Organizer, for the later type, has to send invitation codes for others since those circles are highly customizable and serving for more specific purposes. Organizers are free to establish a money circle by declaring those details below:
+
+										<br>	Number Of Rounds
+										<br>			Contribution Per Round
+										<br>			Number Of Participants
+										<br>		Start Date and Period
+											
+										<br>		Users will receive notification in their mobile application
+											</p>	
+									</div>
+								</div>
+						</div>
+						
+						<div class="card">
+								<div class="card-header" id="faqHeading-10">
+									<div class="mb-0">
+										<h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
+											<span class="badge">10</span>What are the transaction fee you charge for any transactions?
+
+
+	
+										</h5>
+									</div>
+								</div>
+								<div id="faqCollapse-10" class="collapse" aria-labelledby="faqHeading-10" data-parent="#accordion">
+									<div class="card-body">
+									<p>  Constructing a highly decentralized and feasible money circle platform, FundChain income model is built upon both the AZ token market token value and the transactions within the platform. Generally speaking, the revenue model is adapted from a proven and consuetudinary method of charging users with 1% fee from each user’s periodic withdraw. Those fees will be demanded in crypto currency in order to preserve the decentralized characteristic to hold money circulation entirely on the blockchain. </p>	
+									</div>
+								</div>
+						</div>
+						
 					</div>
 				</div>
 			</div>
 		</div>
-	</section> -->
-	<!-- ***** FAQ End ***** -->
+	</section> 
+	<!-- ***** FAQ End *****
 
-	<!-- ***** Contact & Footer Start ***** -->
+	<!***** Contact & Footer Start ***** -->
 	<footer id="contact">
 		<div class="footer-top">
 			<div class="container">
