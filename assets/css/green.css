@@ -297,10 +297,16 @@ global styles
   margin-bottom: 30px;
 }
 
+/* @media only screen and (max-width: 950px) {
+  .left-text ul li {
+    
+  }
+} */
 .left-text ul li {
-  height: 32px;
-  line-height: 32px;
+  /* height: 32px;
+  line-height: 32px; */
   position: relative;
+  
   padding-left: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
