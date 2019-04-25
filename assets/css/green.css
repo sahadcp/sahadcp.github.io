@@ -947,8 +947,13 @@ header
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.header-area .container{
+  max-width: -webkit-fill-available;
+
+}
 
 .header-area .main-nav .logo {
+  margin-left: 3%;
   float: left;
   margin-top: 34px;
   -webkit-transition: all 0.3s ease 0s;
