@@ -2220,6 +2220,18 @@ roadmap
 team
 --------------------------------------------- 
 */
+
+.row.advisors {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+@media (max-width: 991px) {
+  .row.advisors {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 .team-round {
   margin-bottom: 30px;
 }
