@@ -54,7 +54,7 @@
 						<a href="#" class="logo">
 							
 							<img src="assets/images/Webp.net-resizeimage_ew.png" class="light-logo" alt="Arda ICO"/>
-							<img src="assets/images/Webp.net-resizeimage.png" class="dark-logo" alt="Arda ICO"/>
+							<img src="assets/images/Webp.net-resizeimage.png" class="dark-logo" alt="Arda ICO" style="width: 166px;"/>
 						<!-- <p style="color:rgb(255, 255, 255);" class="light-logo">azfundchain</p>
 						<p style="color:rgb(3, 141, 26); margin-bottom: 23px" class="dark-logo">azfundchain</p> -->
 						</a>
@@ -1091,13 +1091,16 @@
 			element.fireEvent('on' + event.eventType, event);
 		  }
 		}
+		
 		jQuery('.lang-select').click(function() {
 		  var theLang = jQuery(this).attr('data-lang');
 		  jQuery('.goog-te-combo').val(theLang);
 		  //alert(jQuery(this).attr('href'));
 		  window.location = jQuery(this).attr('href');
 		  location.reload();
+		  
 		});
+		setcookie('googtrans', '/en/en');
 	</script>
 	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	
