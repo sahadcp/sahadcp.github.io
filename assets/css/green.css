@@ -1364,7 +1364,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-top: 22px !important;
+    /* margin-top: 22px !important; */
     margin-left: 30px;
   }
   .header-area .light-logo {

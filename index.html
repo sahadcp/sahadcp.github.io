@@ -53,8 +53,8 @@
 						<!-- ***** Logo Start ***** -->
 						<a href="#" class="logo">
 							
-							<img src="assets/images/Webp.net-resizeimage_ew.png" class="light-logo" alt="Arda ICO"/>
-							<img src="assets/images/Webp.net-resizeimage.png" class="dark-logo" alt="Arda ICO" style="width: 166px;"/>
+							<img src="assets/images/white_version.png" class="light-logo" alt="Arda ICO" style="width:166px;"/>
+							<img src="assets/images/FC_Logo_001-02.png" class="dark-logo" alt="Arda ICO" style="width:166px;"/>
 						<!-- <p style="color:rgb(255, 255, 255);" class="light-logo">azfundchain</p>
 						<p style="color:rgb(3, 141, 26); margin-bottom: 23px" class="dark-logo">azfundchain</p> -->
 						</a>
@@ -119,17 +119,17 @@
 				</div>
 				<!-- body -->
 				<div class="modal-header">
-				  <form role="form" style="
+				  <form role="form" action="getupdates.php" method="post" style="
 				  width: 460px;">
 					<div class="form-group">
-					  <input type="email" class="form-control" placeholder="Email"/>
+					  <input type="email" name="email" class="form-control" required="required" placeholder="Email"/>
 					</div>
-				  </form>
-				</div>
+				  				</div>
 				<!-- footer -->
 				<div class="modal-footer">
-				  <button class="btn btn-primary btn-block">Submit</button>
+				  <button class="btn btn-primary btn-block" type="submit" name="btn">Submit</button>
 				</div>
+				</form>
 				
 			  </div>
 			</div>
@@ -594,7 +594,7 @@
 							<div class="img">
 								<img src="assets/images/team/asif.jpg" class="img-fluid" alt="">
 								<ul class="social">
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
 									<li><a href="https://www.linkedin.com/in/mohamed-asif-55474115/"><i class="fa fa-linkedin"></i></a></li>
 								</ul>
 							</div>
@@ -1040,18 +1040,20 @@
 					<div class="offset-lg-1 offset-md-1 col-lg-6 col-md-6 col-sm-12">
 						<div class="contact-form">
 							<h3 class="section-title">Say Something</h3>
+							<form role="form" action="message.php" method="post">
 							<div class="form-element">
-								<input type="text" placeholder="Name, surname">
+								<input name="name" required="required" type="text" placeholder="Name, surname">
 							</div>
 							<div class="form-element">
-								<input type="email" placeholder="E-Mail">
+								<input type="email" required="required" name="email" placeholder="E-Mail">
 							</div>
 							<div class="form-element">
-								<textarea placeholder="Message"></textarea>
+								<textarea placeholder="Message" required="required" name="message"></textarea>
 							</div>
 							<div class="form-element">
-								<button class="btn-secondary-box">Submit</button>
+								<button class="btn-secondary-box" type="submit" name="btn">Submit</button>
 							</div>
+							</form>
 						</div>
 					</div>
 				</div>
@@ -1091,16 +1093,13 @@
 			element.fireEvent('on' + event.eventType, event);
 		  }
 		}
-		
 		jQuery('.lang-select').click(function() {
 		  var theLang = jQuery(this).attr('data-lang');
 		  jQuery('.goog-te-combo').val(theLang);
 		  //alert(jQuery(this).attr('href'));
 		  window.location = jQuery(this).attr('href');
 		  location.reload();
-		  
 		});
-		setcookie('googtrans', '/en/en');
 	</script>
 	<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 	
